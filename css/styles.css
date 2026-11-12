@@ -1,0 +1,150 @@
+/* ===== RESET & BASE ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+}
+a { text-decoration: none; color: inherit; }
+
+/* ===== HEADER ===== */
+header {
+    background-color: #2c5f2d;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.header-contenu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.logo { font-size: 1.4rem; font-weight: bold; }
+.navigation-principale { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.navigation-principale a {
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.navigation-principale a:hover,
+.navigation-principale a.lien-actif {
+    border-bottom-color: #97bc62;
+    color: #d9f99d;
+}
+
+/* ===== MAIN ===== */
+main {
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+main h1 { text-align: center; color: #2c5f2d; margin-bottom: 0.5rem; }
+.sous-titre { text-align: center; color: #555; margin-bottom: 2rem; }
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #2c5f2d;
+    color: white;
+    padding: 2rem 0 1rem;
+    margin-top: auto;
+}
+.navigation-footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.navigation-footer a { color: #d9f99d; transition: color 0.3s ease; }
+.navigation-footer a:hover { color: white; text-decoration: underline; }
+footer p { text-align: center; font-size: 0.9rem; color: #ccc; }
+
+/* ===== CARTE DU MONDE ===== */
+.carte-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.carte-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+#carte-conteneur {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+#carte-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info-pays {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f0f8f0;
+    border-radius: 8px;
+    display: none;
+}
+
+.info-pays.visible {
+    display: block;
+}
+
+.pays-tip {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 1rem;
+}
+
+/* ===== PAYS DISPONIBLES ===== */
+.landxx.disponible {
+    fill: #97bc62;
+    stroke: #ffffff;
+    stroke-width: 0.5;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+.landxx.disponible:hover {
+    fill: #2c5f2d;
+}
+.landxx.selectionne {
+    fill: #2c5f2d;
+    stroke: #ffffff;
+    stroke-width: 0.8;
+}
+
+/* ===== PAYS INDISPONIBLES ===== */
+.landxx.indisponible {
+    fill: #c0c0c0;
+    cursor: default;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .header-contenu { flex-direction: column; text-align: center; }
+    .navigation-principale { justify-content: center; gap: 1rem; }
+    .navigation-footer { gap: 1rem; }
+    main { padding: 1rem; }
+}
