@@ -1,0 +1,1934 @@
+[
+  {
+    "rec_id": 1,
+    "rec_nom": "Crêpes sucrées",
+    "rec_difficulte": "Facile",
+    "rec_pays": "France",
+    "rec_codePays": "FR",
+    "rec_coord": {
+      "lat": 46.22,
+      "lon": 2.21
+    },
+    "rec_hotness": 1,
+    "rec_budget": 1,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Recette classique et rapide de la cuisine française. Parfait pour un petit-déjeuner ou un goûter en famille.",
+    "rec_ingredients": [
+      "Farine",
+      "Lait",
+      "Œufs",
+      "Beurre",
+      "Sucre",
+      "Sel"
+    ],
+    "rec_etapes": [
+      "Mélangez 250g de farine, 50cl de lait, 3 œufs, 50g de beurre fondu, 2 cuillères à soupe de sucre et une pincée de sel.",
+      "Laissez reposer la pâte 15 minutes.",
+      "Cuisez les crêpes une par une dans une poêle chaude."
+    ],
+    "rec_likes": 245,
+    "rec_image": "crepes-sucrees.jpg"
+  },
+  {
+    "rec_id": 2,
+    "rec_nom": "Coq au vin",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "France",
+    "rec_codePays": "FR",
+    "rec_coord": {
+      "lat": 46.22,
+      "lon": 2.21
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": ">1h",
+    "rec_allergie": [
+      "Gluten"
+    ],
+    "rec_vege": false,
+    "rec_description": "Plat traditionnel bourguignon mijoté au vin rouge. Un mets savoureux qui se bonifie avec le temps.",
+    "rec_ingredients": [
+      "Poulet",
+      "Vin rouge",
+      "Lardons",
+      "Champignons",
+      "Oignons",
+      "Ail",
+      "Thym",
+      "Laurier"
+    ],
+    "rec_etapes": [
+      "Coupez 1 poulet en morceaux et faites-le dorer avec 100g de lardons.",
+      "Ajoutez 12 oignons grelots, 200g de champignons, 2 gousses d'ail, du thym et du laurier.",
+      "Versez 75cl de vin rouge et laissez mijoter 1h30 à feu doux."
+    ],
+    "rec_likes": 198,
+    "rec_image": "coq-au-vin.jpg"
+  },
+  {
+    "rec_id": 3,
+    "rec_nom": "Boeuf bourguignon",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "France",
+    "rec_codePays": "FR",
+    "rec_coord": {
+      "lat": 46.22,
+      "lon": 2.21
+    },
+    "rec_hotness": 1,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Incontournable de la cuisine française, ce ragoût de bœuf lentement mijoté est tendre et parfumé.",
+    "rec_ingredients": [
+      "Bœuf à braiser",
+      "Vin rouge",
+      "Carottes",
+      "Oignons",
+      "Champignons",
+      "Lardons",
+      "Herbes aromatiques"
+    ],
+    "rec_etapes": [
+      "Coupez 1kg de bœuf en cubes et faites-le revenir avec 150g de lardons.",
+      "Ajoutez 4 carottes en rondelles et 2 oignons émincés.",
+      "Couvrez de 75cl de vin rouge, ajoutez les herbes et laissez cuisiner 2h à feu très doux."
+    ],
+    "rec_likes": 287,
+    "rec_image": "boeuf-bourguignon.jpg"
+  },
+  {
+    "rec_id": 4,
+    "rec_nom": "Ratatouille",
+    "rec_difficulte": "Facile",
+    "rec_pays": "France",
+    "rec_codePays": "FR",
+    "rec_coord": {
+      "lat": 46.22,
+      "lon": 2.21
+    },
+    "rec_hotness": 1,
+    "rec_budget": 1,
+    "rec_temps": "<1h",
+    "rec_allergie": [],
+    "rec_vege": true,
+    "rec_description": "Spécialité provençale de légumes d'été mijotés. Simple, sain et délicieux.",
+    "rec_ingredients": [
+      "Courgettes",
+      "Aubergine",
+      "Poivrons",
+      "Tomates",
+      "Oignon",
+      "Ail",
+      "Huile d'olive",
+      "Herbes de Provence"
+    ],
+    "rec_etapes": [
+      "Coupez tous les légumes en cubes.",
+      "Faites revenir l'oignon et l'ail dans l'huile d'olive.",
+      "Ajoutez les légumes progressivement, assaisonnez et laissez mijoter 40 minutes."
+    ],
+    "rec_likes": 213,
+    "rec_image": "ratatouille.jpg"
+  },
+  {
+    "rec_id": 5,
+    "rec_nom": "Quiche lorraine",
+    "rec_difficulte": "Facile",
+    "rec_pays": "France",
+    "rec_codePays": "FR",
+    "rec_coord": {
+      "lat": 46.22,
+      "lon": 2.21
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Tarte salée originaire de Lorraine, garnie de lardons et d'une crème aux œufs onctueuse.",
+    "rec_ingredients": [
+      "Pâte brisée",
+      "Lardons",
+      "Œufs",
+      "Crème fraîche",
+      "Lait",
+      "Poivre",
+      "Noix de muscade"
+    ],
+    "rec_etapes": [
+      "Étalez la pâte brisée dans un moule et piquez-la avec une fourchette.",
+      "Répartissez 150g de lardons préalablement revenus.",
+      "Mélangez 3 œufs, 20cl de crème, 10cl de lait, assaisonnez et versez sur les lardons. Cuisez 35 minutes à 180°C."
+    ],
+    "rec_likes": 268,
+    "rec_image": "quiche-lorraine.jpg"
+  },
+  {
+    "rec_id": 6,
+    "rec_nom": "Lasagnes à la bolognaise",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Italie",
+    "rec_codePays": "IT",
+    "rec_coord": {
+      "lat": 42.83,
+      "lon": 12.83
+    },
+    "rec_hotness": 2,
+    "rec_budget": 2,
+    "rec_temps": ">1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Plat emblématique de l'Italie, couches de pâtes, sauce tomate à la viande et fromage gratiné.",
+    "rec_ingredients": [
+      "Pâtes à lasagnes",
+      "Viande hachée",
+      "Tomates concassées",
+      "Oignon",
+      "Carotte",
+      "Céleri",
+      "Béchamel",
+      "Parmesan"
+    ],
+    "rec_etapes": [
+      "Préparez la sauce bolognaise en faisant revenir oignon, carotte, céleri puis la viande et les tomates. Laissez mijoter 45 minutes.",
+      "Superposez dans un plat : couche de sauce, pâtes, béchamel. Répétez en terminant par du parmesan.",
+      "Enfournez 40 minutes à 180°C."
+    ],
+    "rec_likes": 342,
+    "rec_image": "lasagnes-a-la-bolognaise.jpg"
+  },
+  {
+    "rec_id": 7,
+    "rec_nom": "Pizza margherita",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Italie",
+    "rec_codePays": "IT",
+    "rec_coord": {
+      "lat": 42.83,
+      "lon": 12.83
+    },
+    "rec_hotness": 1,
+    "rec_budget": 1,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait"
+    ],
+    "rec_vege": true,
+    "rec_description": "La pizza napolitaine classique : sauce tomate, mozzarella et basilic frais. Simple et parfaite.",
+    "rec_ingredients": [
+      "Pâte à pizza",
+      "Sauce tomate",
+      "Mozzarella di bufala",
+      "Basilic frais",
+      "Huile d'olive",
+      "Sel"
+    ],
+    "rec_etapes": [
+      "Étalez la pâte en une forme ronde.",
+      "Étalez une couche fine de sauce tomate, ajoutez la mozzarella déchirée.",
+      "Cuisez 10–12 minutes à 250°C. Ajoutez le basilic frais et un filet d'huile d'olive à la sortie du four."
+    ],
+    "rec_likes": 348,
+    "rec_image": "pizza-margherita.jpg"
+  },
+  {
+    "rec_id": 8,
+    "rec_nom": "Risotto aux champignons",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Italie",
+    "rec_codePays": "IT",
+    "rec_coord": {
+      "lat": 42.83,
+      "lon": 12.83
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Lait"
+    ],
+    "rec_vege": true,
+    "rec_description": "Riz crémeux cuit progressivement dans un bouillon, agrémenté de champignons et de parmesan.",
+    "rec_ingredients": [
+      "Riz arborio",
+      "Champignons de Paris",
+      "Bouillon de légumes",
+      "Vin blanc",
+      "Oignon",
+      "Parmesan",
+      "Beurre"
+    ],
+    "rec_etapes": [
+      "Faites revenir l'oignon émincé dans du beurre, ajoutez le riz et mélangez 2 minutes.",
+      "Ajoutez un peu de vin blanc puis le bouillon louche par louche en remuant souvent pendant 18 minutes.",
+      "Incorporez les champignons revenus, le parmesan et servez immédiatement."
+    ],
+    "rec_likes": 256,
+    "rec_image": "risotto-aux-champignons.jpg"
+  },
+  {
+    "rec_id": 9,
+    "rec_nom": "Spaghettis carbonara",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Italie",
+    "rec_codePays": "IT",
+    "rec_coord": {
+      "lat": 42.83,
+      "lon": 12.83
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "La véritable carbonara romaine : œufs, pecorino, guanciale et poivre — sans crème !",
+    "rec_ingredients": [
+      "Spaghettis",
+      "Guanciale ou lard fumé",
+      "Œufs",
+      "Pecorino romano",
+      "Poivre noir"
+    ],
+    "rec_etapes": [
+      "Cuisez 400g de spaghettis al dente.",
+      "Faites revenir 150g de viande salée coupée en lardons sans matière grasse.",
+      "Hors feu, mélangez pâtes chaudes avec le mélange œufs (3) + fromage (80g) + poivre pour former une crème onctueuse."
+    ],
+    "rec_likes": 312,
+    "rec_image": "spaghettis-carbonara.jpg"
+  },
+  {
+    "rec_id": 10,
+    "rec_nom": "Tiramisu",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Italie",
+    "rec_codePays": "IT",
+    "rec_coord": {
+      "lat": 42.83,
+      "lon": 12.83
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Dessert italien iconique : boudoirs imbibés de café, crème au mascarpone et cacao.",
+    "rec_ingredients": [
+      "Boudoirs",
+      "Mascarpone",
+      "Œufs",
+      "Sucre",
+      "Café noir",
+      "Cacao en poudre"
+    ],
+    "rec_etapes": [
+      "Séparez les blancs des jaunes. Fouettez les jaunes avec 100g de sucre puis ajoutez 250g de mascarpone.",
+      "Montez les blancs en neige ferme et incorporez-les délicatement.",
+      "Trempez rapidement les biscuits dans le café, disposez-les, recouvrez de crème. Répétez et saupoudrez de cacao. Laissez au frais minimum 4h."
+    ],
+    "rec_likes": 335,
+    "rec_image": "tiramisu.jpg"
+  },
+  {
+    "rec_id": 11,
+    "rec_nom": "Sushis maki",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Japon",
+    "rec_codePays": "JP",
+    "rec_coord": {
+      "lat": 36.2,
+      "lon": 138.26
+    },
+    "rec_hotness": 1,
+    "rec_budget": 3,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Poisson",
+      "Soja"
+    ],
+    "rec_vege": false,
+    "rec_description": "Riz vinaigré garni de poisson frais ou de légumes, enroulé dans une feuille d'algue nori.",
+    "rec_ingredients": [
+      "Riz à sushi",
+      "Vinaigre de riz",
+      "Feuilles de nori",
+      "Saumon frais",
+      "Concombre",
+      "Wasabi",
+      "Sauce soja"
+    ],
+    "rec_etapes": [
+      "Cuisez 300g de riz et assaisonnez-le avec 3 cuillères à soupe de vinaigre de riz.",
+      "Déposez une couche de riz sur une feuille de nori, ajoutez les bâtonnets de saumon et de concombre.",
+      "Roulez fermement à l'aide d'une natte puis coupez le rouleau en 6 à 8 portions."
+    ],
+    "rec_likes": 299,
+    "rec_image": "sushis-maki.jpg"
+  },
+  {
+    "rec_id": 12,
+    "rec_nom": "Ramen",
+    "rec_difficulte": "Difficile",
+    "rec_pays": "Japon",
+    "rec_codePays": "JP",
+    "rec_coord": {
+      "lat": 36.2,
+      "lon": 138.26
+    },
+    "rec_hotness": 2,
+    "rec_budget": 2,
+    "rec_temps": ">1h",
+    "rec_allergie": [
+      "Gluten",
+      "Soja"
+    ],
+    "rec_vege": false,
+    "rec_description": "Bouillon parfumé, nouilles de blé et garnitures variées. Un plat réconfortant par excellence.",
+    "rec_ingredients": [
+      "Nouilles à ramen",
+      "Bouillon de poulet ou porc",
+      "Sauce soja",
+      "Œuf mariné",
+      "Porc braisé",
+      "Ciboule",
+      "Algues"
+    ],
+    "rec_etapes": [
+      "Préparez un bouillon riche en faisant mijoter os de porc/poulet, oignon, gingembre et ail pendant plusieurs heures.",
+      "Cuisez les nouilles 2–3 minutes puis placez-les dans le bol.",
+      "Versez le bouillon chaud et disposez joliment les garnitures : viande, œuf coupé, légumes."
+    ],
+    "rec_likes": 315,
+    "rec_image": "ramen.jpg"
+  },
+  {
+    "rec_id": 13,
+    "rec_nom": "Tempura de légumes et crevettes",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Japon",
+    "rec_codePays": "JP",
+    "rec_coord": {
+      "lat": 36.2,
+      "lon": 138.26
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Crustacés",
+      "Gluten"
+    ],
+    "rec_vege": false,
+    "rec_description": "Friture légère et croustillante à la pâte très légère, servie avec une sauce délicate.",
+    "rec_ingredients": [
+      "Crevettes",
+      "Courgette",
+      "Poivron",
+      "Farine de blé",
+      "Eau glacée",
+      "Jaune d'œuf",
+      "Sauce soja",
+      "Bouillon Dashi"
+    ],
+    "rec_etapes": [
+      "Mélangez 100g de farine, 1 jaune d'œuf et 15cl d'eau très froide sans trop mélanger.",
+      "Trempez les aliments dans la pâte puis plongez-les immédiatement dans l'huile chaude à 170°C.",
+      "Laissez dorer 2–3 minutes, égouttez sur papier absorbant et servez avec la sauce."
+    ],
+    "rec_likes": 230,
+    "rec_image": "tempura-de-legumes-et-crevettes.jpg"
+  },
+  {
+    "rec_id": 14,
+    "rec_nom": "Pad thaï aux crevettes",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Thaïlande",
+    "rec_codePays": "TH",
+    "rec_coord": {
+      "lat": 15.87,
+      "lon": 100.99
+    },
+    "rec_hotness": 4,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Crustacés",
+      "Soja",
+      "Arachides"
+    ],
+    "rec_vege": false,
+    "rec_description": "Plat national thaïlandais : nouilles de riz sautées aux crevettes, cacahuètes et citron vert.",
+    "rec_ingredients": [
+      "Nouilles de riz",
+      "Crevettes",
+      "Sauce de poisson",
+      "Tamarin",
+      "Sucre de canne",
+      "Cacahuètes concassées",
+      "Pousses de soja",
+      "Ciboule"
+    ],
+    "rec_etapes": [
+      "Faites tremper 200g de nouilles de riz 10 minutes dans l'eau froide puis égouttez.",
+      "Faites revenir les crevettes 2 minutes dans un wok, réservez. Ajoutez les nouilles et la sauce tamarin/poisson/sucre.",
+      "Mélangez avec les pousses de soja et les crevettes. Servez parsemé de cacahuètes et de ciboule avec un quartier de citron."
+    ],
+    "rec_likes": 278,
+    "rec_image": "pad-thai-aux-crevettes.jpg"
+  },
+  {
+    "rec_id": 15,
+    "rec_nom": "Tom yam goong",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Thaïlande",
+    "rec_codePays": "TH",
+    "rec_coord": {
+      "lat": 15.87,
+      "lon": 100.99
+    },
+    "rec_hotness": 5,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Crustacés"
+    ],
+    "rec_vege": false,
+    "rec_description": "Soupe thaïlandaise emblématique, à la fois acide, piquante et parfumée aux herbes fraîches.",
+    "rec_ingredients": [
+      "Crevettes",
+      "Bouillon de poulet",
+      "Citronnelle",
+      "Feuilles de kaffir",
+      "Gingembre",
+      "Champignons",
+      "Piments",
+      "Jus de citron vert",
+      "Sauce de poisson"
+    ],
+    "rec_etapes": [
+      "Portez à ébullition 1 litre de bouillon avec la citronnelle, le gingembre et les feuilles de kaffir. Laissez infuser 5 minutes.",
+      "Ajoutez 300g de crevettes décortiquées et 150g de champignons. Cuisez 5 minutes.",
+      "Assaisonnez avec du jus de citron vert, de la sauce de poisson et des piments selon votre tolérance au piquant."
+    ],
+    "rec_likes": 221,
+    "rec_image": "tom-yam-goong.jpg"
+  },
+  {
+    "rec_id": 16,
+    "rec_nom": "Curry vert thaï",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Thaïlande",
+    "rec_codePays": "TH",
+    "rec_coord": {
+      "lat": 15.87,
+      "lon": 100.99
+    },
+    "rec_hotness": 4,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Plat crémeux au lait de coco et pâte de curry vert, parfumé et généreusement épicé.",
+    "rec_ingredients": [
+      "Lait de coco",
+      "Pâte de curry vert",
+      "Blanc de poulet",
+      "Poivrons",
+      "Courgettes",
+      "Pousses de bambou",
+      "Basilic thaï"
+    ],
+    "rec_etapes": [
+      "Faites revenir 2 cuillères à soupe de pâte de curry vert dans un peu d'huile 1 minute.",
+      "Ajoutez 40cl de lait de coco et portez à frémissement.",
+      "Incorporez 300g de poulet en dés, les légumes, laissez cuisiner 20 minutes. Ajoutez le basilic thaï avant de servir."
+    ],
+    "rec_likes": 244,
+    "rec_image": "curry-vert-thai.jpg"
+  },
+  {
+    "rec_id": 17,
+    "rec_nom": "Nems au porc",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Vietnam",
+    "rec_codePays": "VN",
+    "rec_coord": {
+      "lat": 14.06,
+      "lon": 108.28
+    },
+    "rec_hotness": 2,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Gluten",
+      "Œufs",
+      "Crustacés"
+    ],
+    "rec_vege": false,
+    "rec_description": "Beignets croustillants en feuille de riz, garnis de viande hachée et de légumes.",
+    "rec_ingredients": [
+      "Feuilles de riz",
+      "Porc haché",
+      "Carottes",
+      "Courgette",
+      "Champignons noirs",
+      "Vermicelles de riz",
+      "Sauce nuoc-mâm"
+    ],
+    "rec_etapes": [
+      "Mélangez 200g de porc haché avec légumes râpés, vermicelles ciselés et assaisonnement.",
+      "Déposez une cuillère à soupe de farce sur une feuille de riz humidifiée, roulez en serrant bien.",
+      "Faites frire dans l'huile chaude 4–5 minutes jusqu'à coloration dorée. Servez avec la sauce nuoc-mâm diluée."
+    ],
+    "rec_likes": 289,
+    "rec_image": "nems-au-porc.jpg"
+  },
+  {
+    "rec_id": 18,
+    "rec_nom": "Pho bo",
+    "rec_difficulte": "Difficile",
+    "rec_pays": "Vietnam",
+    "rec_codePays": "VN",
+    "rec_coord": {
+      "lat": 14.06,
+      "lon": 108.28
+    },
+    "rec_hotness": 2,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Soupe de boeuf traditionnelle nord-vietnamienne : bouillon longuement mijoté, nouilles de riz et viande fraîche.",
+    "rec_ingredients": [
+      "Os de boeuf",
+      "Viande de boeuf",
+      "Nouilles de riz fraîches",
+      "Gingembre",
+      "Oignon",
+      "Anis étoilé",
+      "Cardamome",
+      "Graines de coriandre",
+      "Pousses de soja",
+      "Menthe",
+      "Ciboule"
+    ],
+    "rec_etapes": [
+      "Faites blanchir les os puis rincez-les. Faites-les mijoter 3h avec oignon, gingembre et épices.",
+      "Filtrez le bouillon et portez à ébullition douce.",
+      "Plongez les nouilles 10 secondes dans l'eau bouillante, placez dans un bol, ajoutez la viande tranchée finement et le bouillon bouillant. Disposez les herbes et légumes à côté."
+    ],
+    "rec_likes": 327,
+    "rec_image": "pho-bo.jpg"
+  },
+  {
+    "rec_id": 19,
+    "rec_nom": "Banh mi poulet",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Vietnam",
+    "rec_codePays": "VN",
+    "rec_coord": {
+      "lat": 14.06,
+      "lon": 108.28
+    },
+    "rec_hotness": 2,
+    "rec_budget": 1,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten",
+      "Lait"
+    ],
+    "rec_vege": false,
+    "rec_description": "Sandwich croustillant franco-vietnamien : pain blanc, poulet mariné, légumes marinés et coriandre.",
+    "rec_ingredients": [
+      "Pain blanc",
+      "Blanc de poulet",
+      "Carottes et radis blanc marinés au vinaigre",
+      "Concombre",
+      "Coriandre fraîche",
+      "Mayonnaise",
+      "Sauce soja",
+      "Piment"
+    ],
+    "rec_etapes": [
+      "Faites mariner 2 blancs de poulet dans la sauce soja puis faites-les cuire 6 minutes de chaque côté. Coupez-les en lamelles.",
+      "Coupez le pain en deux, tartinez de mayonnaise, disposez la viande.",
+      "Ajoutez les légumes marinés, le concombre en bâtonnets, la coriandre fraîche et un peu de piment frais."
+    ],
+    "rec_likes": 253,
+    "rec_image": "banh-mi-poulet.jpg"
+  },
+  {
+    "rec_id": 20,
+    "rec_nom": "Tajine d'agneau aux pruneaux",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Maroc",
+    "rec_codePays": "MA",
+    "rec_coord": {
+      "lat": 31.79,
+      "lon": -7.09
+    },
+    "rec_hotness": 2,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Plat mijoté sucré-salé emblématique du Maroc : agneau tendre, pruneaux moelleux et épices douces.",
+    "rec_ingredients": [
+      "Épaule d'agneau",
+      "Pruneaux",
+      "Oignons",
+      "Ail",
+      "Miel",
+      "Gingembre",
+      "Cumin",
+      "Cannelle",
+      "Safran",
+      "Amandes"
+    ],
+    "rec_etapes": [
+      "Faites revenir 1kg d'agneau en morceaux avec 2 oignons émincés et l'ail.",
+      "Ajoutez les épices, couvrez d'eau et laissez mijoter 1h30 à feu doux.",
+      "Ajoutez les pruneaux et une cuillère à soupe de miel, poursuivez la cuisson 20 minutes. Parsemez d'amandes effilées torréfiées."
+    ],
+    "rec_likes": 266,
+    "rec_image": "tajine-d-agneau-aux-pruneaux.jpg"
+  },
+  {
+    "rec_id": 21,
+    "rec_nom": "Couscous royal",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Maroc",
+    "rec_codePays": "MA",
+    "rec_coord": {
+      "lat": 31.79,
+      "lon": -7.09
+    },
+    "rec_hotness": 2,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [
+      "Gluten"
+    ],
+    "rec_vege": false,
+    "rec_description": "Le grand classique des tables maghrébines : semoule fine, bouillon parfumé, légumes et viandes variées.",
+    "rec_ingredients": [
+      "Semoule de blé",
+      "Agneau",
+      "Poulet",
+      "Saucisses merguez",
+      "Carottes",
+      "Navets",
+      "Courgettes",
+      "Pois chiches",
+      "Épices à couscous"
+    ],
+    "rec_etapes": [
+      "Faites revenir les viandes dans le fond du couscoussier, ajoutez les légumes, les pois chiches, les épices et couvrez d'eau. Laissez mijoter 40 minutes.",
+      "Placez la semoule dans un plat, arrosez d'eau salée, laissez gonfler 10 minutes puis passez-la 20 minutes à la vapeur au-dessus du bouillon.",
+      "Servez la semoule en monticule, disposez les légumes et les viandes autour, versez le bouillon dans une saucière."
+    ],
+    "rec_likes": 310,
+    "rec_image": "couscous-royal.jpg"
+  },
+  {
+    "rec_id": 22,
+    "rec_nom": "Harira",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Maroc",
+    "rec_codePays": "MA",
+    "rec_coord": {
+      "lat": 31.79,
+      "lon": -7.09
+    },
+    "rec_hotness": 2,
+    "rec_budget": 1,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Gluten"
+    ],
+    "rec_vege": false,
+    "rec_description": "Soupe traditionnelle du ramadan à base de légumineuses, de tomates et de fines herbes.",
+    "rec_ingredients": [
+      "Lentilles",
+      "Pois chiches",
+      "Tomates",
+      "Oignon",
+      "Céleri",
+      "Farine",
+      "Fines herbes",
+      "Épices"
+    ],
+    "rec_etapes": [
+      "Faites tremper 50g de pois chiches la veille. Le jour même, faites revenir oignon, céleri et tomates concassées.",
+      "Ajoutez 1,5 litre d'eau, les lentilles, les pois chiches et les épices. Laissez cuisiner 40 minutes.",
+      "Délayez 2 cuillères à soupe de farine dans un peu d'eau froide, incorporez à la soupe en fouettant. Laissez épaissir quelques minutes puis ajoutez les herbes fraîches."
+    ],
+    "rec_likes": 205,
+    "rec_image": "harira.jpg"
+  },
+  {
+    "rec_id": 23,
+    "rec_nom": "Paella valencienne",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Espagne",
+    "rec_codePays": "ES",
+    "rec_coord": {
+      "lat": 40.46,
+      "lon": -3.75
+    },
+    "rec_hotness": 2,
+    "rec_budget": 3,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Crustacés"
+    ],
+    "rec_vege": false,
+    "rec_description": "Plat emblématique de la côte est espagnole : riz safrané cuit dans un bouillon riche avec viande et fruits de mer.",
+    "rec_ingredients": [
+      "Riz rond",
+      "Poulet",
+      "Lapin",
+      "Moules",
+      "Crevettes",
+      "Poivron",
+      "Tomates",
+      "Petits pois",
+      "Safran",
+      "Bouillon de poisson"
+    ],
+    "rec_etapes": [
+      "Dans une poêle à paella, faites dorer le poulet et le lapin, réservez. Faites revenir poivron et tomates.",
+      "Ajoutez 300g de riz et le safran, mélangez bien puis versez 80cl de bouillon bouillant. Répartissez la viande et les fruits de mer sur le dessus.",
+      "Laissez cuisiner 18 minutes sans remuer. Le riz doit absorber tout le liquide et former une couche croustillante au fond. Laissez reposer 5 minutes avant de servir."
+    ],
+    "rec_likes": 330,
+    "rec_image": "paella-valencienne.jpg"
+  },
+  {
+    "rec_id": 24,
+    "rec_nom": "Gaspacho andalou",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Espagne",
+    "rec_codePays": "ES",
+    "rec_coord": {
+      "lat": 40.46,
+      "lon": -3.75
+    },
+    "rec_hotness": 2,
+    "rec_budget": 1,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten"
+    ],
+    "rec_vege": true,
+    "rec_description": "Soupe froide de légumes crus, rafraîchissante et vitaminée, idéale en été.",
+    "rec_ingredients": [
+      "Tomates mûres",
+      "Concombre",
+      "Poivron rouge",
+      "Ail",
+      "Pain de campagne",
+      "Huile d'olive",
+      "Vinaigre de Xérès"
+    ],
+    "rec_etapes": [
+      "Lavez et coupez 1kg de tomates, 1 concombre, 1 poivron rouge en morceaux. Épluchez 1 gousse d'ail.",
+      "Mixez le tout avec 2 tranches de pain trempées dans l'eau, 4 cuillères à soupe d'huile d'olive et 2 cuillères à soupe de vinaigre.",
+      "Passez au chinois si vous souhaitez une texture lisse. Réservez au frais minimum 2h avant de servir bien froid."
+    ],
+    "rec_likes": 228,
+    "rec_image": "gaspacho-andalou.jpg"
+  },
+  {
+    "rec_id": 25,
+    "rec_nom": "Tortilla de pommes de terre",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Espagne",
+    "rec_codePays": "ES",
+    "rec_coord": {
+      "lat": 40.46,
+      "lon": -3.75
+    },
+    "rec_hotness": 1,
+    "rec_budget": 1,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Œufs"
+    ],
+    "rec_vege": true,
+    "rec_description": "L'omelette épaisse espagnole : pommes de terre fondantes et oignons liés aux œufs. Simple et incontournable.",
+    "rec_ingredients": [
+      "Pommes de terre",
+      "Oignons",
+      "Œufs",
+      "Huile d'olive",
+      "Sel"
+    ],
+    "rec_etapes": [
+      "Épluchez et coupez 600g de pommes de terre en fines rondelles avec 2 oignons. Faites-les confire dans beaucoup d'huile à feu doux 20 minutes sans les faire dorer.",
+      "Égouttez bien puis mélangez avec 6 œufs battus et une pincée de sel.",
+      "Versez dans une poêle avec un peu d'huile, cuisez 5–7 minutes à feu moyen puis retournez-la délicatement à l'aide d'une assiette et cuisez l'autre côté 3–5 minutes."
+    ],
+    "rec_likes": 294,
+    "rec_image": "tortilla-de-pommes-de-terre.jpg"
+  },
+  {
+    "rec_id": 26,
+    "rec_nom": "Moussaka",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Grèce",
+    "rec_codePays": "GR",
+    "rec_coord": {
+      "lat": 39.07,
+      "lon": 21.82
+    },
+    "rec_hotness": 2,
+    "rec_budget": 2,
+    "rec_temps": ">1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Gratin grec en couches : aubergines fondantes, sauce tomate à la viande et béchamel dorée.",
+    "rec_ingredients": [
+      "Aubergines",
+      "Viande hachée d'agneau ou boeuf",
+      "Tomates concassées",
+      "Oignon",
+      "Béchamel",
+      "Fromage râpé",
+      "Huile d'olive"
+    ],
+    "rec_etapes": [
+      "Coupez 2 aubergines en tranches, faites-les dorer des deux côtés dans l'huile d'olive. Réservez sur papier absorbant.",
+      "Faites revenir l'oignon puis 400g de viande hachée. Ajoutez les tomates, assaisonnez et laissez réduire 20 minutes.",
+      "Disposez une couche d'aubergines dans un plat, puis la viande, renouvelez. Recouvrez de béchamel, parsemez de fromage râpé. Cuisez 40 minutes à 180°C."
+    ],
+    "rec_likes": 275,
+    "rec_image": "moussaka.jpg"
+  },
+  {
+    "rec_id": 27,
+    "rec_nom": "Salade grecque",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Grèce",
+    "rec_codePays": "GR",
+    "rec_coord": {
+      "lat": 39.07,
+      "lon": 21.82
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<15min",
+    "rec_allergie": [
+      "Lait"
+    ],
+    "rec_vege": true,
+    "rec_description": "Légumes frais, fromage feta, olives et herbes — la simplicité méditerranéenne à l'état pur.",
+    "rec_ingredients": [
+      "Tomates",
+      "Concombre",
+      "Poivron vert",
+      "Oignon rouge",
+      "Olives noires de Kalamata",
+      "Feta",
+      "Huile d'olive",
+      "Origan",
+      "Vinaigre"
+    ],
+    "rec_etapes": [
+      "Coupez 4 tomates en quartiers, 1 concombre en dés, 1 poivron en lamelles et ½ oignon rouge en fines rondelles.",
+      "Disposez dans un plat, ajoutez une quinzaine d'olives noires.",
+      "Déposez un bloc de feta au centre, arrosez généreusement d'huile d'olive, parsemez d'origan séché et d'un filet de vinaigre. Servez frais sans mélanger à l'avance."
+    ],
+    "rec_likes": 241,
+    "rec_image": "salade-grecque.jpg"
+  },
+  {
+    "rec_id": 28,
+    "rec_nom": "Dolmas feuilles de vigne farcies",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Grèce",
+    "rec_codePays": "GR",
+    "rec_coord": {
+      "lat": 39.07,
+      "lon": 21.82
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [],
+    "rec_vege": true,
+    "rec_description": "Feuilles de vigne tendres roulées autour d'une farce au riz et aux herbes, cuites à l'étouffée.",
+    "rec_ingredients": [
+      "Feuilles de vigne en bocal",
+      "Riz rond",
+      "Oignon",
+      "Pignons de pin",
+      "Raisins secs",
+      "Aneth",
+      "Menthe",
+      "Jus de citron"
+    ],
+    "rec_etapes": [
+      "Ébouillantez et égouttez 40 feuilles de vigne. Faites revenir l'oignon émincé, ajoutez 150g de riz cru, pignons, raisins et herbes. Laissez tiédir.",
+      "Déposez une cuillère à café de farce au centre de chaque feuille, repliez les côtés puis roulez fermement.",
+      "Disposez-les serrés les uns contre les autres dans une casserole. Versez un mélange d'eau et de jus de citron à mi-hauteur. Posez une assiette par-dessus pour les maintenir. Cuisez 40 minutes à feu doux."
+    ],
+    "rec_likes": 192,
+    "rec_image": "dolmas-feuilles-de-vigne-farcies.jpg"
+  },
+  {
+    "rec_id": 29,
+    "rec_nom": "Butter chicken",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Inde",
+    "rec_codePays": "IN",
+    "rec_coord": {
+      "lat": 20.59,
+      "lon": 78.96
+    },
+    "rec_hotness": 4,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Lait"
+    ],
+    "rec_vege": false,
+    "rec_description": "Plat populaire du nord de l'Inde : poulet grillé puis mijoté dans une sauce tomate crémeuse et parfumée.",
+    "rec_ingredients": [
+      "Poulet",
+      "Yaourt nature",
+      "Garam masala",
+      "Curcuma",
+      "Cumin",
+      "Sauce tomate",
+      "Crème fraîche épaisse",
+      "Beurre",
+      "Ail",
+      "Gingembre"
+    ],
+    "rec_etapes": [
+      "Coupez 600g de poulet en cubes, faites mariner 30 minutes dans le yaourt + épices puis faites-le dorer au four ou à la poêle.",
+      "Faites revenir l'ail et le gingembre dans 30g de beurre, ajoutez les épices puis la sauce tomate. Laissez mijoter 15 minutes.",
+      "Ajoutez le poulet et 4 cuillères à soupe de crème. Poursuivez la cuisson 10 minutes. Servez saupoudré de coriandre fraîche."
+    ],
+    "rec_likes": 320,
+    "rec_image": "butter-chicken.jpg"
+  },
+  {
+    "rec_id": 30,
+    "rec_nom": "Dal lentilles corail",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Inde",
+    "rec_codePays": "IN",
+    "rec_coord": {
+      "lat": 20.59,
+      "lon": 78.96
+    },
+    "rec_hotness": 4,
+    "rec_budget": 1,
+    "rec_temps": "<1h",
+    "rec_allergie": [],
+    "rec_vege": true,
+    "rec_description": "Velouté de lentilles corail aux épices, plat végétarien réconfortant et économique.",
+    "rec_ingredients": [
+      "Lentilles corail",
+      "Eau ou bouillon",
+      "Curcuma",
+      "Cumin",
+      "Gingembre",
+      "Ail",
+      "Oignon",
+      "Tomates",
+      "Huile"
+    ],
+    "rec_etapes": [
+      "Rincez 250g de lentilles corail. Portez à ébullition avec 75cl d'eau et le curcuma. Laissez cuire 20 minutes jusqu'à ce qu'elles se décomposent.",
+      "Faites revenir l'oignon, l'ail et le gingembre hachés avec le cumin dans un peu d'huile.",
+      "Mélangez aux lentilles, ajoutez les tomates concassées et laissez mijoter 10 minutes. Servez avec du riz."
+    ],
+    "rec_likes": 215,
+    "rec_image": "dal-lentilles-corail.jpg"
+  },
+  {
+    "rec_id": 31,
+    "rec_nom": "Naan au fromage",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Inde",
+    "rec_codePays": "IN",
+    "rec_coord": {
+      "lat": 20.59,
+      "lon": 78.96
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Levure"
+    ],
+    "rec_vege": true,
+    "rec_description": "Pain indien moelleux garni de fromage fondant, cuit au four ou à la poêle.",
+    "rec_ingredients": [
+      "Farine",
+      "Levure boulangère",
+      "Yaourt",
+      "Lait",
+      "Sucre",
+      "Sel",
+      "Fromage blanc ou mozzarella",
+      "Beurre fondu"
+    ],
+    "rec_etapes": [
+      "Délayez 5g de levure dans 10cl de lait tiède avec 1 cuillère à café de sucre. Mélangez avec 250g de farine, 2 cuillères à soupe de yaourt et une pincée de sel. Pétrissez 10 minutes, laissez lever 1h.",
+      "Divisez la pâte en 4 boules, aplatissez, garnissez de fromage, refermez puis étalez en galette ovale.",
+      "Cuisez dans une poêle très chaude sans huile 2 minutes de chaque côté jusqu'à ce que le pain gonfle et colore. Badigeonnez de beurre fondu."
+    ],
+    "rec_likes": 290,
+    "rec_image": "naan-au-fromage.jpg"
+  },
+  {
+    "rec_id": 32,
+    "rec_nom": "Tacos al pastor",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Mexique",
+    "rec_codePays": "MX",
+    "rec_coord": {
+      "lat": 23.63,
+      "lon": -102.55
+    },
+    "rec_hotness": 4,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Gluten"
+    ],
+    "rec_vege": false,
+    "rec_description": "Porc mariné aux épices et à l'ananas, servi dans des tortillas avec des oignons et de la coriandre.",
+    "rec_ingredients": [
+      "Épaule de porc",
+      "Piments séchés",
+      "Ail",
+      "Vinaigre",
+      "Ananas frais",
+      "Tortillas de maïs",
+      "Oignon blanc",
+      "Coriandre",
+      "Citron vert"
+    ],
+    "rec_etapes": [
+      "Faites tremper les piments séchés dans de l'eau chaude 15 minutes. Mixez-les avec l'ail, le vinaigre, les épices et des morceaux d'ananas pour obtenir une marinade.",
+      "Coupez 500g de porc en fines lamelles, faites mariner 2h minimum puis faites revenir à feu vif dans une poêle avec quelques tranches d'ananas jusqu'à caramélisation.",
+      "Réchauffez les tortillas, garnissez de viande, d'oignon émincé, de coriandre fraîche et d'un filet de citron vert."
+    ],
+    "rec_likes": 335,
+    "rec_image": "tacos-al-pastor.jpg"
+  },
+  {
+    "rec_id": 33,
+    "rec_nom": "Guacamole",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Mexique",
+    "rec_codePays": "MX",
+    "rec_coord": {
+      "lat": 23.63,
+      "lon": -102.55
+    },
+    "rec_hotness": 3,
+    "rec_budget": 2,
+    "rec_temps": "<15min",
+    "rec_allergie": [],
+    "rec_vege": true,
+    "rec_description": "Purée d'avocat fraîche agrémentée de tomate, oignon, citron et piment. Accompagnement incontournable.",
+    "rec_ingredients": [
+      "Avocats bien mûrs",
+      "Tomate",
+      "Oignon blanc",
+      "Piment jalapeño",
+      "Coriandre fraîche",
+      "Jus de citron vert",
+      "Sel"
+    ],
+    "rec_etapes": [
+      "Coupez 3 avocats en deux, retirez le noyau et prélevez la chair dans un bol. Écrasez grossièrement à la fourchette.",
+      "Ajoutez 1 tomate épépinée et coupée en petits dés, ¼ d'oignon émincé très fin, le piment épépiné et ciselé.",
+      "Incorporez une cuillère à soupe de jus de citron vert, du sel et de la coriandre ciselée. Mélangez délicatement et servez rapidement."
+    ],
+    "rec_likes": 310,
+    "rec_image": "guacamole.jpg"
+  },
+  {
+    "rec_id": 34,
+    "rec_nom": "Enchiladas au poulet",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Mexique",
+    "rec_codePays": "MX",
+    "rec_coord": {
+      "lat": 23.63,
+      "lon": -102.55
+    },
+    "rec_hotness": 4,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait"
+    ],
+    "rec_vege": false,
+    "rec_description": "Tortillas roulées garnies de poulet, nappées d'une sauce tomate épicée et gratinées au fromage.",
+    "rec_ingredients": [
+      "Tortillas de blé",
+      "Blancs de poulet",
+      "Sauce tomate",
+      "Piments",
+      "Oignon",
+      "Fromage râpé",
+      "Crème fraîche"
+    ],
+    "rec_etapes": [
+      "Faites cuire 300g de poulet puis effilochez-le. Faites revenir l'oignon émincé avec les piments, ajoutez la sauce tomate et laissez mijoter 10 minutes.",
+      "Trempez rapidement chaque tortilla dans la sauce chaude, garnissez de poulet, roulez et disposez dans un plat allant au four.",
+      "Nappez du reste de sauce, parsemez de fromage râpé. Enfournez 15 minutes à 180°C jusqu'à ce que le fromage soit doré et bouillonnant."
+    ],
+    "rec_likes": 280,
+    "rec_image": "enchiladas-au-poulet.jpg"
+  },
+  {
+    "rec_id": 35,
+    "rec_nom": "Feijoada brésilienne",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Brésil",
+    "rec_codePays": "BR",
+    "rec_coord": {
+      "lat": -14.24,
+      "lon": -51.93
+    },
+    "rec_hotness": 2,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Plat national brésilien : ragoût de haricots noirs et viandes variées, servi avec du riz et des légumes.",
+    "rec_ingredients": [
+      "Haricots noirs",
+      "Palette de porc",
+      "Saucisse fumée",
+      "Lardons",
+      "Oignon",
+      "Ail",
+      "Feuille de laurier",
+      "Riz blanc",
+      "Farine de manioc"
+    ],
+    "rec_etapes": [
+      "Faites tremper 500g de haricots noirs la veille. Le jour même, faites-les cuire à l'eau bouillante 45 minutes jusqu'à tendreté sans jeter l'eau.",
+      "Faites revenir les lardons, la viande de porc et la saucisse coupée en rondelles. Ajoutez l'oignon et l'ail émincés puis mélangez aux haricots.",
+      "Laissez mijoter à feu très doux 1h. Servez avec du riz blanc, des quartiers d'orange et de la farine de manioc torréfié."
+    ],
+    "rec_likes": 265,
+    "rec_image": "feijoada-bresilienne.jpg"
+  },
+  {
+    "rec_id": 36,
+    "rec_nom": "Pão de queijo",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Brésil",
+    "rec_codePays": "BR",
+    "rec_coord": {
+      "lat": -14.24,
+      "lon": -51.93
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": true,
+    "rec_description": "Petits pains au fromage sans farine de blé, croustillants à l'extérieur et moelleux à l'intérieur.",
+    "rec_ingredients": [
+      "Farine de manioc",
+      "Lait",
+      "Huile",
+      "Sel",
+      "Œufs",
+      "Fromage râpé"
+    ],
+    "rec_etapes": [
+      "Portez à ébullition 25cl de lait avec 10cl d'huile et une pincée de sel. Versez sur 300g de farine de manioc et mélangez vigoureusement.",
+      "Incorporez 2 œufs puis 150g de fromage râpé. La pâte reste molle mais se façonne à la main huilée.",
+      "Formez des boules de la taille d'une noix, déposez-les sur une plaque et cuisez 15–20 minutes à 180°C jusqu'à ce qu'elles soient bien dorées."
+    ],
+    "rec_likes": 295,
+    "rec_image": "pao-de-queijo.jpg"
+  },
+  {
+    "rec_id": 37,
+    "rec_nom": "Churrasco",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Brésil",
+    "rec_codePays": "BR",
+    "rec_coord": {
+      "lat": -14.24,
+      "lon": -51.93
+    },
+    "rec_hotness": 1,
+    "rec_budget": 3,
+    "rec_temps": "<1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Barbecue de viandes variées, la spécialité conviviale du Brésil. Simple et généreux.",
+    "rec_ingredients": [
+      "Picanha ou autres morceaux de bœuf",
+      "Saucisse",
+      "Poitrine de poulet",
+      "Gros sel",
+      "Poivre"
+    ],
+    "rec_etapes": [
+      "Préparez votre barbecue ou votre grill. Coupez la viande en morceaux adaptés.",
+      "Assaisonnez simplement de gros sel et de poivre, sans marinade pour respecter le goût de la viande.",
+      "Faites cuire selon l'épaisseur en retournant à mi-parcours. Servez immédiatement dès la cuisson souhaitée atteinte."
+    ],
+    "rec_likes": 250,
+    "rec_image": "churrasco.jpg"
+  },
+  {
+    "rec_id": 38,
+    "rec_nom": "Burger classique américain",
+    "rec_difficulte": "Facile",
+    "rec_pays": "États-Unis",
+    "rec_codePays": "US",
+    "rec_coord": {
+      "lat": 37.09,
+      "lon": -95.71
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Le classique incontournable : steak haché juteux, fromage fondant, légumes frais dans un pain moelleux.",
+    "rec_ingredients": [
+      "Pain à burger",
+      "Viande hachée de bœuf",
+      "Fromage en tranches",
+      "Salade",
+      "Tomate",
+      "Oignon",
+      "Ketchup",
+      "Moutarde"
+    ],
+    "rec_etapes": [
+      "Formez 2 steaks hachés de 150g chacun, assaisonnez. Faites-les cuire 2–3 minutes de chaque côté selon la cuisson souhaitée.",
+      "Posez une tranche de fromage sur chaque steak encore chaud pour qu'il fonde. Faites dorer les pains quelques instants.",
+      "Assemblez : pain inférieur, sauce au choix, salade, steak avec fromage, tomate, oignon, couvercle. Servez immédiatement."
+    ],
+    "rec_likes": 340,
+    "rec_image": "burger-classique-americain.jpg"
+  },
+  {
+    "rec_id": 39,
+    "rec_nom": "Pancakes moelleux",
+    "rec_difficulte": "Facile",
+    "rec_pays": "États-Unis",
+    "rec_codePays": "US",
+    "rec_coord": {
+      "lat": 37.09,
+      "lon": -95.71
+    },
+    "rec_hotness": 1,
+    "rec_budget": 1,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Crêpes épaisses et aériennes, le petit-déjeuner traditionnel outre-Atlantique.",
+    "rec_ingredients": [
+      "Farine",
+      "Lait",
+      "Œufs",
+      "Beurre fondu",
+      "Sucre",
+      "Levure chimique",
+      "Sirop d'érable"
+    ],
+    "rec_etapes": [
+      "Mélangez 200g de farine, 2 cuillères à soupe de sucre et 1 sachet de levure chimique.",
+      "Incorporez 25cl de lait, 2 œufs et 30g de beurre fondu. Mélangez sans trop lisser : quelques grumeaux restent.",
+      "Versez une petite louche de pâte dans une poêle chaude légèrement beurrée. Retournez lorsque des bulles apparaissent. Servez nappé de sirop d'érable."
+    ],
+    "rec_likes": 305,
+    "rec_image": "pancakes-moelleux.jpg"
+  },
+  {
+    "rec_id": 40,
+    "rec_nom": "Côtes de bœuf sauce barbecue",
+    "rec_difficulte": "Facile",
+    "rec_pays": "États-Unis",
+    "rec_codePays": "US",
+    "rec_coord": {
+      "lat": 37.09,
+      "lon": -95.71
+    },
+    "rec_hotness": 2,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Côtes de bœuf confites lentement puis caramélisées dans une sauce sucrée-salée fumée.",
+    "rec_ingredients": [
+      "Côtes de bœuf",
+      "Ketchup",
+      "Miel",
+      "Vinaigre de cidre",
+      "Sauce soja",
+      "Paprika fumé",
+      "Ail en poudre"
+    ],
+    "rec_etapes": [
+      "Mélangez les ingrédients de la sauce et badigeonnez généreusement les côtes. Laissez mariner 2h au frais.",
+      "Enveloppez-les dans du papier cuisson et faites cuire 2h à 160°C au four.",
+      "Sortez-les, badigeonnez de sauce à nouveau et passez 10 minutes sous le gril pour caraméliser. Servez avec une salade ou des pommes de terre."
+    ],
+    "rec_likes": 275,
+    "rec_image": "cotes-de-boeuf-sauce-barbecue.jpg"
+  },
+  {
+    "rec_id": 41,
+    "rec_nom": "Currywurst",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Allemagne",
+    "rec_codePays": "DE",
+    "rec_coord": {
+      "lat": 51.17,
+      "lon": 10.45
+    },
+    "rec_hotness": 3,
+    "rec_budget": 1,
+    "rec_temps": "<30min",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Spécialité berlinoise : saucisse épaisse coupée en tranches, nappée de sauce tomate au curry.",
+    "rec_ingredients": [
+      "Saucisse de type bratwurst",
+      "Sauce tomate",
+      "Poudre de curry",
+      "Paprika",
+      "Sucre",
+      "Vinaigre"
+    ],
+    "rec_etapes": [
+      "Faites cuire 4 saucisses à la poêle ou à l'eau bouillante 10 minutes jusqu'à ce qu'elles soient dorées.",
+      "Dans une casserole, mélangez 20cl de sauce tomate, 2 cuillères à café de curry, 1 de paprika, 1 cuillère à soupe de sucre et 1 de vinaigre. Réchauffez 5 minutes sans ébullition.",
+      "Coupez les saucisses en tranches épaisses, nappez de sauce et saupoudrez d'un peu de poudre de curry supplémentaire."
+    ],
+    "rec_likes": 230,
+    "rec_image": "currywurst.jpg"
+  },
+  {
+    "rec_id": 42,
+    "rec_nom": "Choucroute garnie",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Allemagne",
+    "rec_codePays": "DE",
+    "rec_coord": {
+      "lat": 51.17,
+      "lon": 10.45
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": ">1h",
+    "rec_allergie": [],
+    "rec_vege": false,
+    "rec_description": "Chou fermenté mijoté avec vin blanc et épices, accompagné de diverses charcuteries et viandes.",
+    "rec_ingredients": [
+      "Choucroute crue",
+      "Vin blanc sec",
+      "Oignon",
+      "Baies de genièvre",
+      "Graines de caraway",
+      "Lard fumé",
+      "Saucisses de Strasbourg",
+      "Knacks",
+      "Palette de porc"
+    ],
+    "rec_etapes": [
+      "Rincez 800g de choucroute à l'eau froide et essorez-la. Faites revenir l'oignon émincé puis ajoutez la choucroute, les épices et 30cl de vin blanc.",
+      "Disposez par-dessus les viandes et le lard. Couvrez et laissez mijoter à feu très doux 1h30 sans remuer.",
+      "Servez bien chaud avec des pommes de terre bouillies et de la moutarde forte."
+    ],
+    "rec_likes": 242,
+    "rec_image": "choucroute-garnie.jpg"
+  },
+  {
+    "rec_id": 43,
+    "rec_nom": "Schwarzwälder Kirschtorte",
+    "rec_difficulte": "Difficile",
+    "rec_pays": "Allemagne",
+    "rec_codePays": "DE",
+    "rec_coord": {
+      "lat": 51.17,
+      "lon": 10.45
+    },
+    "rec_hotness": 1,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Gâteau Forêt-Noire : couches de génoise au chocolat, crème fouettée et cerises au kirsch.",
+    "rec_ingredients": [
+      "Œufs",
+      "Sucre",
+      "Farine",
+      "Cacao",
+      "Crème liquide entière",
+      "Cerises au sirop",
+      "Kirsch",
+      "Chocolat noir"
+    ],
+    "rec_etapes": [
+      "Réalisez une génoise : battez 6 œufs avec 150g de sucre, incorporez délicatement 100g de farine et 50g de cacao tamisés. Cuisez 25 minutes à 180°C puis coupez-la en 3 disques.",
+      "Égouttez 500g de cerises, récupérez le sirop et mélangez-y 3 cuillères à soupe de kirsch. Fouettez 60cl de crème liquide en crème fouettée ferme.",
+      "Imbibez chaque disque de sirop au kirsch, alternez couche de crème et cerises. Recouvrez le gâteau de crème, décorez de copeaux de chocolat et de cerises. Réservez au frais minimum 4h."
+    ],
+    "rec_likes": 288,
+    "rec_image": "schwarzwalder-kirschtorte.jpg"
+  },
+  {
+    "rec_id": 44,
+    "rec_nom": "Fish and chips",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Royaume-Uni",
+    "rec_codePays": "GB",
+    "rec_coord": {
+      "lat": 55.38,
+      "lon": -3.44
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Poisson",
+      "Gluten"
+    ],
+    "rec_vege": false,
+    "rec_description": "Morceaux de poisson blanc panés et frits, accompagnés de frites épaisses croustillantes. Plat emblématique britannique.",
+    "rec_ingredients": [
+      "Filets de cabillaud ou haddock",
+      "Farine",
+      "Levure chimique",
+      "Bière blonde froide",
+      "Pommes de terre",
+      "Huile de friture",
+      "Sel",
+      "Vinaigre malté"
+    ],
+    "rec_etapes": [
+      "Coupez 800g de pommes de terre en bâtonnets épais, rincez-les à l'eau froide puis séchez-les soigneusement. Faites-les précuire 5 minutes dans l'huile à 150°C, réservez.",
+      "Mélangez 150g de farine, 1 cuillère à café de levure et 20cl de bière froide pour obtenir une pâte lisse. Trempez-y 4 filets de poisson essuyés.",
+      "Plongez le poisson dans l'huile à 180°C, faites dorer 6–8 minutes. Poursuivez avec les frites à 190°C jusqu'à coloration dorée. Servez immédiatement avec du sel et du vinaigre."
+    ],
+    "rec_likes": 302,
+    "rec_image": "fish-and-chips.jpg"
+  },
+  {
+    "rec_id": 45,
+    "rec_nom": "Roast beef et Yorkshire puddings",
+    "rec_difficulte": "Moyenne",
+    "rec_pays": "Royaume-Uni",
+    "rec_codePays": "GB",
+    "rec_coord": {
+      "lat": 55.38,
+      "lon": -3.44
+    },
+    "rec_hotness": 1,
+    "rec_budget": 3,
+    "rec_temps": ">1h",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Le traditionnel rôti du dimanche : bœuf tendre accompagné de petits gâteaux croustillants cuits dans la graisse.",
+    "rec_ingredients": [
+      "Rôti de bœuf dans le filet",
+      "Farine",
+      "Œufs",
+      "Lait",
+      "Graisse de bœuf",
+      "Sel",
+      "Poivre"
+    ],
+    "rec_etapes": [
+      "Sortez le rôti 1h à l'avance pour qu'il soit à température ambiante. Assaisonnez, enfournez 35–40 minutes à 200°C pour une cuisson saignante. Laissez reposer 15 minutes avant de trancher.",
+      "Mélangez 125g de farine, 2 œufs, 15cl de lait et une pincée de sel pour obtenir une pâte fluide. Laissez reposer 30 minutes.",
+      "Déposez une noisette de graisse dans chaque alvéole d'un moule à muffins et portez au four très chaud. Versez la pâte et cuisez 15–20 minutes jusqu'à ce que les puddings soient bien gonflés et dorés."
+    ],
+    "rec_likes": 260,
+    "rec_image": "roast-beef-et-yorkshire-puddings.jpg"
+  },
+  {
+    "rec_id": 46,
+    "rec_nom": "Crème brûlée",
+    "rec_difficulte": "Facile",
+    "rec_pays": "France",
+    "rec_codePays": "FR",
+    "rec_coord": {
+      "lat": 46.22,
+      "lon": 2.21
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": true,
+    "rec_description": "Dessert classique à la crème onctueuse recouvert d'une fine couche de sucre caramélisé cassante.",
+    "rec_ingredients": [
+      "Crème liquide entière",
+      "Jaunes d'œufs",
+      "Sucre en poudre",
+      "Sucre roux",
+      "Gousse de vanille"
+    ],
+    "rec_etapes": [
+      "Faites bouillir 50cl de crème liquide avec la gousse de vanille fendue et grattée. Laissez infuser 10 minutes puis retirez la gousse.",
+      "Fouettez 4 jaunes d'œufs avec 60g de sucre sans blanchir. Versez la crème chaude progressivement en mélangeant. Répartissez dans 4 ramequins.",
+      "Cuisez 35 minutes à 100°C au bain-marie. Laissez refroidir puis placez au frais minimum 2h. Saupoudrez de sucre roux et caramélisez au chalumeau juste avant de servir."
+    ],
+    "rec_likes": 318,
+    "rec_image": "creme-brulee.jpg"
+  },
+  {
+    "rec_id": 47,
+    "rec_nom": "Kung Pao poulet",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Chine",
+    "rec_codePays": "CN",
+    "rec_coord": {
+      "lat": 35.86,
+      "lon": 104.2
+    },
+    "rec_hotness": 4,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Soja",
+      "Arachides"
+    ],
+    "rec_vege": false,
+    "rec_description": "Plat du Sichuan : poulet sauté aux piments séchés, cacahuètes et ciboule dans une sauce aigre-douce.",
+    "rec_ingredients": [
+      "Blanc de poulet",
+      "Piments séchés",
+      "Arachides",
+      "Ciboule",
+      "Ail",
+      "Gingembre",
+      "Sauce soja",
+      "Vinaigre de riz",
+      "Sucre"
+    ],
+    "rec_etapes": [
+      "Coupez 400g de poulet en cubes. Mélangez 2 cuillères à soupe de sauce soja, 1 de vinaigre, 1 de sucre et 2 cuillères à soupe d'eau pour la sauce.",
+      "Faites revenir les piments cassés dans un peu d'huile jusqu'à ce qu'ils parfument. Ajoutez l'ail et le gingembre hachés puis le poulet. Faites revenir 4–5 minutes à feu vif.",
+      "Versez la sauce, mélangez 1 minute jusqu'à épaississement. Ajoutez 50g de cacahuètes et la ciboule coupée en tronçons. Mélangez une dernière fois et servez avec du riz."
+    ],
+    "rec_likes": 270,
+    "rec_image": "kung-pao-poulet.jpg"
+  },
+  {
+    "rec_id": 48,
+    "rec_nom": "Riz cantonais",
+    "rec_difficulte": "Facile",
+    "rec_pays": "Chine",
+    "rec_codePays": "CN",
+    "rec_coord": {
+      "lat": 35.86,
+      "lon": 104.2
+    },
+    "rec_hotness": 1,
+    "rec_budget": 1,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Œufs",
+      "Soja"
+    ],
+    "rec_vege": false,
+    "rec_description": "Riz sauté au jambon, petits pois et œuf brouillé. Simple, rapide et parfait pour utiliser des restes de riz.",
+    "rec_ingredients": [
+      "Riz cuit froid",
+      "Jambon blanc",
+      "Petits pois surgelés",
+      "Œufs",
+      "Ciboule",
+      "Sauce soja",
+      "Huile"
+    ],
+    "rec_etapes": [
+      "Battez 2 œufs avec une pincée de sel. Faites-les brouiller rapidement dans un wok avec un peu d'huile, réservez.",
+      "Dans le même wok, faites revenir 100g de jambon coupé en dés et 100g de petits pois 2 minutes.",
+      "Ajoutez 400g de riz cuit froid, mélangez bien pour séparer les grains. Réincorporez les œufs, ajoutez 1 cuillère à soupe de sauce soja et la ciboule ciselée. Mélangez 2 minutes à feu vif et servez."
+    ],
+    "rec_likes": 235,
+    "rec_image": "riz-cantonais.jpg"
+  },
+  {
+    "rec_id": 49,
+    "rec_nom": "Dim sum vapeur aux crevettes",
+    "rec_difficulte": "Difficile",
+    "rec_pays": "Chine",
+    "rec_codePays": "CN",
+    "rec_coord": {
+      "lat": 35.86,
+      "lon": 104.2
+    },
+    "rec_hotness": 1,
+    "rec_budget": 3,
+    "rec_temps": "<1h",
+    "rec_allergie": [
+      "Crustacés",
+      "Gluten"
+    ],
+    "rec_vege": false,
+    "rec_description": "Raviolis transparents fournis aux crevettes, cuits à la vapeur. Grande spécialité cantonaise.",
+    "rec_ingredients": [
+      "Crevettes crues décortiquées",
+      "Farine de blé",
+      "Fécule de maïs",
+      "Eau bouillante",
+      "Sel",
+      "Sucre",
+      "Sauce soja pour l'accompagnement"
+    ],
+    "rec_etapes": [
+      "Mélangez 80g de farine et 40g de fécule. Versez 10cl d'eau bouillante progressivement en mélangeant. Pétrissez 5 minutes pour obtenir une pâte lisse et élastique. Couvrez et laissez reposer 30 minutes.",
+      "Hachez finement 200g de crevettes, assaisonnez de sel et d'une pincée de sucre. Coupez la pâte en 12 boules, étalez chaque boule en un disque très fin.",
+      "Déposez une cuillère à café de farce au centre, repliez en forme de croissant en pinçant les bords. Placez dans un panier vapeur garni de papier cuisson percé. Cuisez 6–7 minutes à l'eau bouillante. Servez immédiatement avec la sauce soja."
+    ],
+    "rec_likes": 282,
+    "rec_image": "dim-sum-vapeur-aux-crevettes.jpg"
+  },
+  {
+    "rec_id": 50,
+    "rec_nom": "Salade César",
+    "rec_difficulte": "Facile",
+    "rec_pays": "États-Unis",
+    "rec_codePays": "US",
+    "rec_coord": {
+      "lat": 37.09,
+      "lon": -95.71
+    },
+    "rec_hotness": 1,
+    "rec_budget": 2,
+    "rec_temps": "<30min",
+    "rec_allergie": [
+      "Gluten",
+      "Lait",
+      "Œufs"
+    ],
+    "rec_vege": false,
+    "rec_description": "Salade croquante à la romaine, poulet grillé, croûtons aillés, parmesan et sauce crémeuse.",
+    "rec_ingredients": [
+      "Laitue romaine",
+      "Blanc de poulet",
+      "Pain de campagne",
+      "Parmesan",
+      "Gousse d'ail",
+      "Jus de citron",
+      "Huile d'olive",
+      "Jaune d'œuf",
+      "Moutarde"
+    ],
+    "rec_etapes": [
+      "Faites griller 2 blancs de poulet 5–6 minutes de chaque côté, coupez-les en lanières. Coupez 2 tranches de pain en cubes et faites-les dorer à la poêle avec de l'huile et de l'ail écrasé pour faire des croûtons.",
+      "Préparez la sauce : mélangez 1 jaune d'œuf, 1 cuillère à café de moutarde, 1 cuillère à soupe de jus de citron, 1 gousse d'ail pressée, 4 cuillères à soupe d'huile d'olive et 2 cuillères à soupe de parmesan râpé. Salez et poivrez.",
+      "Lavez et essorez la laitue, disposez-la dans un grand saladier. Ajoutez le poulet, les croûtons, des copeaux de parmesan. Versez la sauce au moment de servir et mélangez délicatement."
+    ],
+    "rec_likes": 308,
+    "rec_image": "salade-cesar.jpg"
+  },
+  {
+"rec_id": 51,
+"rec_nom": "Soupe à l'oignon gratinée",
+"rec_difficulte": "Facile",
+"rec_pays": "France",
+"rec_codePays": "FR",
+"rec_coord": { "lat": 46.22, "lon": 2.21 },
+"rec_niv": "Facile",
+"rec_hotness": 1,
+"rec_budget": 1,
+"rec_temps": "<1h",
+"rec_allergie": ["Gluten", "Lait"],
+"rec_vege": true,
+"rec_description": "Soupe traditionnelle aux oignons caramélisés, gratinée au fromage sur des tranches de pain.",
+"rec_ingredients": ["Oignons jaunes", "Beurre", "Huile", "Farine", "Bouillon de bœuf ou légumes", "Vin blanc optionnel", "Pain de campagne", "Fromage râpé (Comté ou Gruyère)", "Sel", "Poivre"],
+"rec_etapes": [
+"Émincez 1kg d'oignons finement. Faites-les revenir dans 30g de beurre et 1 cuillère à soupe d'huile à feu doux jusqu'à caramélisation dorée (25–30 min).",
+"Saupoudrez de 1 cuillère à soupe de farine, mélangez bien 2 minutes. Ajoutez 1,2 litre de bouillon progressivement en fouettant. Laissez mijoter 20 minutes. Assaisonnez.",
+"Versez dans des bols résistants au feu, déposez une tranche de pain dessus, parsemez de fromage râpé. Passez 5 minutes sous le gril jusqu'à ce que le fromage soit doré et bouillonnant. Servez immédiatement."
+],
+"rec_likes": 276,
+"rec_image": "soupe-a-l-oignon-gratinee.jpg"
+},
+{
+"rec_id": 52,
+"rec_nom": "Croque monsieur",
+"rec_difficulte": "Facile",
+"rec_pays": "France",
+"rec_codePays": "FR",
+"rec_coord": { "lat": 46.22, "lon": 2.21 },
+"rec_niv": "Facile",
+"rec_hotness": 1,
+"rec_budget": 1,
+"rec_temps": "<15min",
+"rec_allergie": ["Gluten", "Lait", "Œufs"],
+"rec_vege": false,
+"rec_description": "Sandwich chaud classique : pain de mie, jambon, fromage et sauce béchamel, doré à la poêle ou au four.",
+"rec_ingredients": ["Pain de mie", "Jambon blanc", "Fromage râpé", "Fromage en tranches", "Béchamel épaisse", "Beurre"],
+"rec_etapes": [
+"Beurrez légèrement une face de 2 tranches de pain de mie. Posez une tranche de jambon pliée sur la face non beurrée de l'une d'elles.",
+"Ajoutez une couche de béchamel, du fromage râpé et refermez avec la seconde tranche, face beurrée vers l'extérieur.",
+"Faites dorer 2–3 minutes de chaque côté dans une poêle chaude. Recouvrez le dessus de béchamel et de fromage râpé puis passez 3 minutes sous le gril jusqu'à coloration dorée. Servez chaud."
+],
+"rec_likes": 322,
+"rec_image": "croque-monsieur.jpg"
+},
+{
+"rec_id": 53,
+"rec_nom": "Chorba Frik",
+"rec_difficulte": "Facile",
+"rec_pays": "Algérie",
+"rec_codePays": "DZ",
+"rec_coord": { "lat": 28.03, "lon": 1.66 },
+"rec_niv": "Facile",
+"rec_hotness": 3,
+"rec_budget": 2,
+"rec_temps": ">1h",
+"rec_allergie": [],
+"rec_vege": false,
+"rec_description": "Soupe algérienne réconfortante à base de blé vert concassé et de viande, parfumée aux épices et légumes.",
+"rec_ingredients": ["Viande d'agneau ou bœuf", "Frik (blé vert concassé)", "Oignon", "Tomates", "Concentré de tomate", "Carotte", "Courgette", "Céleri", "Paprika", "Coriandre moulue", "Poivre noir", "Huile d'olive", "Eau"],
+"rec_etapes": [
+"Coupez 300g de viande en morceaux. Faites-la revenir avec 1 oignon émincé dans un peu d'huile jusqu'à légère coloration.",
+"Ajoutez 2 tomates concassées, 1 cuillère à soupe de concentré de tomate, les épices, mélangez 1 minute. Versez 1,5 litre d'eau, portez à ébullition puis laissez cuisiner 20 minutes à feu doux.",
+"Ajoutez la carotte et le céleri coupés en dés ainsi que 150g de frik préalablement rincé. Poursuivez la cuisson 20 minutes puis ajoutez la courgette. Laissez cuire encore 10 minutes. Rectifiez l'assaisonnement et servez bien chaud."
+],
+"rec_likes": 263,
+"rec_image": "chorba-frik.jpg"
+},
+{
+"rec_id": 54,
+"rec_nom": "Karantika",
+"rec_difficulte": "Facile",
+"rec_pays": "Algérie",
+"rec_codePays": "DZ",
+"rec_coord": { "lat": 28.03, "lon": 1.66 },
+"rec_niv": "Facile",
+"rec_hotness": 2,
+"rec_budget": 1,
+"rec_temps": "<1h",
+"rec_allergie": [],
+"rec_vege": true,
+"rec_description": "Flan salé à la farine de pois chiches, croustillant à l'extérieur et moelleux à l'intérieur, servi avec du cumin et de la harissa.",
+"rec_ingredients": ["Farine de pois chiches", "Eau", "Huile d'olive", "Sel", "Cumin moulu", "Harissa"],
+"rec_etapes": [
+"Préchauffez votre four à 180°C. Huilez généreusement un plat à gratin de 20×20 cm environ.",
+"Dans un saladier, mélangez 250g de farine de pois chiches avec 75cl d'eau progressivement pour éviter les grumeaux. Ajoutez 3 cuillères à soupe d'huile d'olive, 1 cuillère à café de sel et ½ cuillère à café de cumin. Mélangez jusqu'à obtenir une pâte lisse.",
+"Versez dans le plat et enfournez pour 35 à 40 minutes jusqu'à ce que le dessus soit doré et ferme. Laissez tiédir légèrement, coupez en carrés et servez saupoudré de cumin avec un peu de harissa à côté."
+],
+"rec_likes": 218,
+"rec_image": "karantika.jpg"
+},
+{
+"rec_id": 55,
+"rec_nom": "Couscous algérien",
+"rec_difficulte": "Moyenne",
+"rec_pays": "Algérie",
+"rec_codePays": "DZ",
+"rec_coord": { "lat": 28.03, "lon": 1.66 },
+"rec_niv": "Moyen",
+"rec_hotness": 3,
+"rec_budget": 3,
+"rec_temps": ">1h",
+"rec_allergie": ["Gluten"],
+"rec_vege": false,
+"rec_description": "Le couscous algérien, généreusement parfumé, avec de la semoule fine, des légumes variés et de l'agneau ou du poulet.",
+"rec_ingredients": ["Semoule de blé moyenne", "Agneau ou poulet", "Oignon", "Ail", "Tomates", "Courgettes", "Carottes", "Navets", "Pois chiches", "Piment doux ou fort", "Épices (cumin, coriandre, paprika)", "Huile", "Beurre"],
+"rec_etapes": [
+"Faites revenir la viande avec l'oignon émincé et l'ail dans un peu d'huile. Ajoutez les tomates concassées, les épices, couvrez d'eau et portez à ébullition.",
+"Ajoutez les carottes et les navets entiers ou coupés. Laissez mijoter 30 minutes. Ajoutez ensuite les courgettes et les pois chiches, poursuivez 20 minutes.",
+"Pendant ce temps, arrosez la semoule d'eau salée, laissez gonfler 10 minutes puis passez-la une première fois 15 minutes à la vapeur. Retirez, ajoutez une noisette de beurre, séparez les grains à la fourchette puis passez-la une seconde fois 10 minutes à la vapeur. Servez la semoule avec la viande, les légumes et le bouillon."
+],
+"rec_likes": 305,
+"rec_image": "couscous-algerien.jpg"
+},
+{
+"rec_id": 56,
+"rec_nom": "Makroudh aux dattes",
+"rec_difficulte": "Moyenne",
+"rec_pays": "Algérie",
+"rec_codePays": "DZ",
+"rec_coord": { "lat": 28.03, "lon": 1.66 },
+"rec_niv": "Moyen",
+"rec_hotness": 1,
+"rec_budget": 2,
+"rec_temps": "<1h",
+"rec_allergie": ["Gluten"],
+"rec_vege": true,
+"rec_description": "Gâteaux algériens en forme de losange, à la pâte de semoule fourrée à la pâte de dattes et trempée dans du miel.",
+"rec_ingredients": ["Semoule fine", "Farine", "Beurre fondu", "Eau de fleur d'oranger", "Pâte de dattes", "Miel", "Huile pour friture"],
+"rec_etapes": [
+"Mélangez 300g de semoule fine avec 50g de farine, une pincée de sel et 100g de beurre fondu. Sablez du bout des doigts puis ajoutez progressivement de l'eau de fleur d'oranger jusqu'à obtenir une pâte ferme mais souple. Laissez reposer 30 minutes.",
+"Formez des boudins de pâte de dattes. Étalez la pâte de semoule en bande, placez le boudin de dattes au centre, refermez et roulez en bâtonnet régulier. Coupez en losanges.",
+"Faites frire dans l'huile chaude à feu moyen jusqu'à légère coloration dorée. Égouttez puis trempez immédiatement dans du miel tiédi. Laissez s'égoutter avant de servir."
+],
+"rec_likes": 248,
+"rec_image": "makroudh-aux-dattes.jpg"
+}
+]
