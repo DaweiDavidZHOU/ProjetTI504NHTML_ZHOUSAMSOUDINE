@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     
                     <div class="recette-actions">
                         <button class="bouton-like ${aimeDeja ? 'aimé' : ''}" data-id="${idRecette}">
-                            ❤️ <span class="compteur-like">${recette.rec_likes || 0}</span>
+                            ♡ <span class="compteur-like">${recette.rec_likes || 0}</span>
                         </button>
                     </div>
                 </div>

@@ -299,8 +299,13 @@ footer p { text-align: center; font-size: 0.9rem; color: #ccc; }
     border-radius: 5px;
 }
 
-.bouton-like:hover,
+.bouton-like {
+    color: #ccc; 
+}
 .bouton-like.aimé {
+    color: #e63946; 
+}
+.bouton-like:hover {
     color: #e63946;
 }
 
@@ -334,6 +339,216 @@ footer p { text-align: center; font-size: 0.9rem; color: #ccc; }
     padding: 4rem 2rem;
     color: #777;
     font-size: 1.1rem;
+}
+
+/* ===== PAGE LISTE.HTML ===== */
+.page-titre {
+    text-align: center;
+    color: #2c5f2d;
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+}
+
+.section-filtres {
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.champ-recherche {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.champ-recherche:focus {
+    outline: none;
+    border-color: #2c5f2d;
+}
+
+.groupe-filtres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.select-filtre {
+    padding: 0.6rem 0.8rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background: white;
+    cursor: pointer;
+}
+
+.checkbox-filtre {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.compte-resultats {
+    text-align: center;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.conteneur-tableau {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    overflow-x: auto;
+    padding: 0 1rem;
+}
+
+#tableau-recettes {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+#tableau-recettes th,
+#tableau-recettes td {
+    padding: 0.9rem 0.7rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+#tableau-recettes th {
+    background: #2c5f2d;
+    color: white;
+    font-weight: 600;
+}
+
+#tableau-recettes tbody tr:hover {
+    background: #f8f9f5;
+}
+
+.bouton-like-tableau {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #ccc; 
+    transition: all 0.25s ease;
+    padding: 0.2rem 0.4rem;
+}
+
+.bouton-like-tableau.aimé {
+    color: #e63946; 
+}
+
+.bouton-like-tableau:hover {
+    color: #e63946; 
+}
+
+.aucune-ligne {
+    text-align: center;
+    padding: 2rem !important;
+    color: #777;
+}
+
+/* Responsive tableau */
+@media (max-width: 768px) {
+    .groupe-filtres {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .select-filtre {
+        width: 100%;
+    }
+    #tableau-recettes th,
+    #tableau-recettes td {
+        padding: 0.6rem 0.4rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* ===== MODALE RECETTE ===== */
+.modale-fond {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1000;
+    padding: 2rem 1rem;
+    overflow-y: auto;
+}
+
+.modale-fond.ouverte {
+    display: flex;
+}
+
+.modale-contenu {
+    background: white;
+    border-radius: 12px;
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    padding: 2rem;
+    animation: modale-apparition 0.3s ease;
+}
+
+@keyframes modale-apparition {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.modale-fermer {
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    z-index: 10;
+}
+
+.modale-fermer:hover {
+    color: #e63946;
+}
+
+.lien-recette {
+    color: #2c5f2d;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.lien-recette:hover {
+    color: #97bc62;
+    text-decoration: underline;
+}
+
+#tableau-recettes th[data-tri] {
+    cursor: pointer;
+    user-select: none;
+}
+
+#tableau-recettes th[data-tri]:hover {
+    background: #3d7a3e;
 }
 
 /* Adaptation mobile */
