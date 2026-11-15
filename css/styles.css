@@ -722,6 +722,13 @@ footer p { text-align: center; font-size: 0.9rem; color: #ccc; }
     margin-bottom: 1rem;
 }
 
+.icone-grand img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .bloc-presentation h3 {
     color: #2c5f2d;
     font-size: 1.3rem;
