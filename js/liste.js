@@ -232,11 +232,30 @@ function attacherLiensRecettes() {
     });
 }
 
+function obtenirNomImage(texte) {
+    return texte.toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/'/g, '-')
+        .replace(/[éèêë]/g, 'e')
+        .replace(/[àâäã]/g, 'a')
+        .replace(/[ùûü]/g, 'u')
+        .replace(/[ôöõ]/g, 'o')
+        .replace(/[ïî]/g, 'i')
+        .replace(/[ç]/g, 'c')
+        .replace(/œ/g, 'oe')
+        .replace(/æ/g, 'ae')
+        .replace(/ñ/g, 'n')
+        .replace(/[^a-z0-9-]/g, '') + '.jpg';
+}
+
 function ouvrirModale(recette) {
     const fond = document.getElementById('modale-fond');
     const corps = document.getElementById('modale-corps');
     const likes = getLikes();
     const aimeDeja = likes[recette.rec_id] === true;
+
+    const nomImage = obtenirNomImage(recette.rec_nom);
+    const cheminImage = `../img/${nomImage}`;
 
     let metaHTML = '';
     if (recette.rec_temps) metaHTML += `<span>⏱️ ${recette.rec_temps}</span>`;
@@ -288,6 +307,11 @@ function ouvrirModale(recette) {
     }
 
     corps.innerHTML = `
+        <div class="modale-image">
+            <img src="${cheminImage}" alt="${recette.rec_nom}" loading="lazy"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <span class="emoji-fallback">🍽️</span>
+        </div>
         <h2 style="color:#2c5f2d; margin-bottom:0.5rem;">${recette.rec_nom}</h2>
         <p class="recette-description">${recette.rec_description || ''}</p>
         <div class="recette-meta">${metaHTML}</div>

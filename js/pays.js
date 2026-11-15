@@ -29,6 +29,23 @@ function sauvegarderLike(idRecette, aime) {
     localStorage.setItem('recettesLikes', JSON.stringify(likes));
 }
 
+// Fonction pour générer le nom du fichier image
+function obtenirNomImage(texte) {
+    return texte.toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/'/g, '-')
+        .replace(/[éèêë]/g, 'e')
+        .replace(/[àâäã]/g, 'a')     
+        .replace(/[ùûü]/g, 'u')
+        .replace(/[ôöõ]/g, 'o')      
+        .replace(/[ïî]/g, 'i')
+        .replace(/[ç]/g, 'c')
+        .replace(/œ/g, 'oe')
+        .replace(/æ/g, 'ae')
+        .replace(/ñ/g, 'n')         
+        .replace(/[^a-z0-9-]/g, '') + '.jpg';
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
     const params = new URLSearchParams(window.location.search);
     const codePays = params.get('pays');
@@ -66,6 +83,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             const idRecette = recette.rec_id;
             const aimeDeja = likes[idRecette] === true;
 
+            // Générer le nom de l'image
+            const nomImage = obtenirNomImage(recette.rec_nom);
+            const cheminImage = `../img/${nomImage}`; // ../ car pays.html est à la racine ou dans un dossier ? Ajuste si besoin
+
             // Métadonnées
             let metaHTML = '';
             if (recette.rec_temps) metaHTML += `<span>⏱️ ${recette.rec_temps}</span>`;
@@ -76,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             if (recette.rec_vege === true) metaHTML += `<span>🥗 Végétarien</span>`;
             if (recette.rec_allergie && recette.rec_allergie.length > 0) {
-                metaHTML += `<span>⚠️ Allergènes : ${recette.rec_allergie.join(', ')}</span>`;
+                metaHTML += `<span class="allergene">⚠️ Allergènes : ${recette.rec_allergie.join(', ')}</span>`;
             }
             if (recette.rec_hotness !== undefined) {
                 const niveauPiquant = [
@@ -87,10 +108,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                     '🔥 Hardcore 🔥'
                 ];
                 const index = Math.max(0, Math.min(4, parseInt(recette.rec_hotness) - 1));
-                metaHTML += `<span class="piquant">🌶️ ${niveauPiquant[index]}</span>`;
+                metaHTML += `<span>🌶️ ${niveauPiquant[index]}</span>`;
             }
 
-            // Ingrédients — c'est un TABLEAU, on l'affiche en liste !
+            // Ingrédients
             let ingredientsHTML = '';
             if (recette.rec_ingredients && Array.isArray(recette.rec_ingredients) && recette.rec_ingredients.length > 0) {
                 ingredientsHTML = `
@@ -104,7 +125,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>`;
             }
 
-            // ÉTAPES — c'est aussi un TABLEAU dans ton JSON !
+            // Étapes
             let etapesHTML = '';
             if (recette.rec_etapes && Array.isArray(recette.rec_etapes) && recette.rec_etapes.length > 0) {
                 etapesHTML = `
@@ -124,10 +145,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>`;
             }
 
-
             return `
             <div class="carte-recette" data-id="${idRecette}">
-                <div class="recette-image">🍽️</div>
+                <div class="recette-image">
+                    <img src="${cheminImage}" alt="${recette.rec_nom}" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <span class="emoji-fallback">🍽️</span>
+                </div>
                 <div class="recette-contenu">
                     <h3>${recette.rec_nom || 'Recette sans nom'}</h3>
                     <p class="recette-description">${recette.rec_description || ''}</p>
